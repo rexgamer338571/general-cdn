@@ -24,7 +24,7 @@ def convert(multiline_str):
 
     processed_lines[-1] = '|' + ' ' * (second_line_length - 2) + '|'
 
-    last_line = ' ' + '_' * (second_line_length - 2) + ' '
+    last_line = '_' * (second_line_length - 2)
     processed_lines.append(last_line)
 
     return '\n'.join(processed_lines)
